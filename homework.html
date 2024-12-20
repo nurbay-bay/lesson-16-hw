@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    function toggleStar(element) {
+      element.src = element.src.includes("star1.svg") ? "images/star2.svg" : "images/star1.svg";
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-item title">
+        <img class="logo" src="images/mail.png" alt="mail">
+        <span>My mail</span>
+      </div>
+      <div class="header-item mymail">
+        <span>user@mymail.com</span>
+        <img class="logo" src="images/acc.png" alt="person">
+      </div>
+    </header>
+  
+    <nav class="categories">
+      <ul class="categories-list">
+        <li><a href="#"><img class="categories-item" src="images/incom.png" alt="incom"><span>Incoming</span></a></li>
+        <li><a href="#"><img class="categories-item" src="images/outcom.png" alt="outcom"><span>Outgoing</span></a></li>
+        <li><a href="#"><img class="categories-item" src="images/draft.png" alt="draft"><span>Drafts</span></a></li>
+        <li><a href="#"><img class="categories-item" src="images/spam.png" alt="spam"><span>Spam</span></a></li>
+      </ul>
+    </nav>
+  
+    <main>
+      <article class="mail">
+        <img class="star" src="images/star1.svg" alt="star" onclick="toggleStar(this)">
+        <span class="mail-who">me, Alex</span>
+        <span class="mail-massage">
+          Trip to South America<span class="mail-massage-item"> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, odit.</span>
+        </span>
+        <img class="attach" src="images/attach.png" alt="attach">
+        <span class="mail-date">12 apr.</span>
+      </article>
+      <article class="mail">
+        <img class="star" src="images/star1.svg" alt="star" onclick="toggleStar(this)">
+        <span class="mail-who">me, Jhon</span>
+        <span class="mail-massage">
+          Santa Monica Trip<span class="mail-massage-item"> - Lorem ipsum dolor sit amet.</span>
+        </span>
+        <img class="attach" src="images/attach.png" alt="attach">
+        <span class="mail-date">12 apr.</span>
+      </article>
+      <article class="mail">
+        <img class="star" src="images/star1.svg" alt="star" onclick="toggleStar(this)">
+        <span class="mail-who">me, Alex, Jhon</span>
+        <span class="mail-massage">
+          Birthday party<span class="mail-massage-item"> - 22.12.2024</span>
+        </span>
+        <span></span>
+        <span class="mail-date">11 apr.</span>
+      </article>
+      <article class="mail">
+        <img class="star" src="images/star2.svg" alt="star" onclick="toggleStar(this)">
+        <span class="mail-who">Mary White</span>
+        <span class="mail-massage">
+          Secret Job<span class="mail-massage-item"> - Lorem ipsum dolor, sit amet consectetur adipisicing elit. In porro minus eligendi laborum blanditiis harum fugiat a labore neque eum.</span>
+        </span>
+        <img class="attach" src="images/attach.png" alt="attach">
+        <span class="mail-date">8 apr.</span>
+      </article>
+      <article class="mail">
+        <img class="star" src="images/star1.svg" alt="star" onclick="toggleStar(this)">
+        <span class="mail-who">me, Alex</span>
+        <span class="mail-massage">
+          Trip to South America<span class="mail-massage-item"> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, odit.</span>
+        </span>
+        <img class="attach" src="images/attach.png" alt="attach">
+        <span class="mail-date">12 apr.</span>
+      </article>
+      <article class="mail">
+        <img class="star" src="images/star1.svg" alt="star" onclick="toggleStar(this)">
+        <span class="mail-who">me, Alex</span>
+        <span class="mail-massage">
+          Trip to South America<span class="mail-massage-item"> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, odit.</span>
+        </span>
+        <span></span>
+        <span class="mail-date">12 apr.</span>
+      </article>
+      <article class="mail">
+        <img class="star" src="images/star2.svg" alt="star" onclick="toggleStar(this)">
+        <span class="mail-who">me, Alex</span>
+        <span class="mail-massage">
+          Trip to South America<span class="mail-massage-item"> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, odit.</span>
+        </span>
+        <span></span>
+        <span class="mail-date">12 apr.</span>
+      </article>
+      <article class="mail">
+        <img class="star" src="images/star2.svg" alt="star" onclick="toggleStar(this)">
+        <span class="mail-who">me, Alex</span>
+        <span class="mail-massage">
+          Trip to South America<span class="mail-massage-item"> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, odit.</span>
+        </span>
+        <img class="attach" src="images/attach.png" alt="attach">
+        <span class="mail-date">12 apr.</span>
+      </article>
+    </main>
+  </div>
+</body>
+</html>
